@@ -8,9 +8,8 @@ import Link from 'next/link'
 
 function Footer() {
   return (
-    <footer className='flex flex-col space-y-10 justify-center m-8'>
+    <footer translate='no' className='flex flex-col space-y-10 justify-center m-8'>
       <nav
-        translate='no'
         className='flex justify-center flex-wrap gap-6 text-gray-500 font-normal md:font-medium'
       >
         <Link className='hover:text-white' href='/'>

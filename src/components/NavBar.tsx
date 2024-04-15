@@ -11,12 +11,11 @@ function NavBar() {
   }
 
   return (
-    <div>
+    <div translate='no'>
       {/* Navbar */}
       <nav className='bg-black p-4'>
         <div className='container mx-auto flex flex-col lg:flex-row justify-between items-center'>
           <div
-            translate='no'
             className='text-gray-500 font-bold text-2xl mb-4 lg:mb-0 hover:text-white hover:cursor-pointer'
           >
             <Link href='/' className='text-gray-500 px-4 py-2 hover:text-white'>

@@ -14,7 +14,7 @@ const Stories: React.FC<StoriesProps> = ({
   link, // Destructure the link prop
 }) => {
   return (
-    <Link
+    <Link translate='no'
       className='relative w-full h-[430px] rounded overflow-hidden'
       href={link}
     >
